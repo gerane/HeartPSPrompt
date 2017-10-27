@@ -21,3 +21,6 @@ function prompt
 # Playing with Ansi
 
 # "$(Write-VcsStatus)$([char]0x1b)[1;32;3m$($ExecutionContext.SessionState.Path.CurrentLocation)`n$([char]0x1b)[90mI $([char]0x1b)[0;31m$([char]9829) $([char]0x1b)[90mPS>$('' * ($nestedPromptLevel + 1)) "
+
+
+# function prompt {"I $([char]0x1b)[0;31m$([char]9829) $([char]0x1b)[0;37mPS> "}
